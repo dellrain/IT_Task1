@@ -32,11 +32,6 @@ public class DictionaryViewModel<TKey, TValue> : INotifyPropertyChanged
         }
     }
 
-    public DictionaryViewModel()
-    {
-        // Здесь можно инициализировать словарь начальными значениями, если это необходимо
-    }
-
     public void Add(TKey key, TValue value)
     {
         _dictionary.Add(key, value);
